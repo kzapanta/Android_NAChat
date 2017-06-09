@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All Scenarios">
+
+
+    <test name="Messages">
+        <classes>
+            <class name="MessagesTab" />
+        </classes>
+    </test>
+
+    <test name="Me">
+        <classes>
+            <class name="MeTab" />
+        </classes>
+    </test>
+
+    <test name="Settings">
+        <classes>
+            <class name="SettingsTab" />
+        </classes>
+    </test>
+
+    <test name="Friends">
+        <classes>
+            <class name="FriendsTab" />
+        </classes>
+    </test>
+
+    <test name="Groups">
+        <classes>
+            <class name="GroupsTab" />
+        </classes>
+    </test>
+
+    <test name="Login with Mobile">
+        <classes>
+            <class name="SignWithMobileNo" />
+        </classes>
+    </test>
+
+
+
+</suite>

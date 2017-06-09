@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Scenarios]">
+  <test name="Login with Mobile(failed)">
+    <classes>
+      <class name="SignWithMobileNo">
+        <methods>
+          <include name="testAfterTest"/>
+          <include name="testBeforeSuite"/>
+          <include name="testAfterSuite"/>
+          <include name="invalidCode"/>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- SignWithMobileNo -->
+    </classes>
+  </test> <!-- Login with Mobile(failed) -->
+</suite> <!-- Failed suite [All Scenarios] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MessageAttachments]">
+  <test name="Messages(failed)">
+    <classes>
+      <class name="MessagesTab">
+        <methods>
+          <include name="logout"/>
+          <include name="testAfterTest"/>
+          <include name="testBeforeSuite"/>
+          <include name="testAfterSuite"/>
+          <include name="testBeforeTest"/>
+        </methods>
+      </class> <!-- MessagesTab -->
+    </classes>
+  </test> <!-- Messages(failed) -->
+</suite> <!-- Failed suite [MessageAttachments] -->
